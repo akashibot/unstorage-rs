@@ -1,0 +1,12 @@
+[package]
+name = "unstorage-rs"
+version = "0.1.0"
+edition = "2024"
+
+[dependencies]
+tokio = { version = "1.43.0", features = ["full"] }
+isahc = { version = "1.7", features = ["json", "http2"] }
+anyhow = "1.0.95"
+serde = { version = "1.0", features = ["derive"] }
+serde_json = "1.0"
+chrono = "0.4.39"
